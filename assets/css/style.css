@@ -1,0 +1,45 @@
+.my-calc {
+    border: 5px dotted red;
+    margin-top: 100px;
+    padding: 50px 0 50px 100px;
+}
+
+.resultee {
+    width: 100%;
+    height: 100px;
+    color: brown;
+    font-weight: 900;
+    text-shadow: 1px blue;
+    text-align: center;
+    border: 2px solid aliceblue;
+}
+
+.resultee h3 {
+    font-family: MyFont;
+    font-size: 80px;
+    background: -webkit-linear-gradient(blue, blue, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container {
+    text-align: center;
+    font-size: 14px;
+    background-color: #DBE3E6;
+}
+
+.header h1 {
+    font-family: MyFont;
+    font-size: 100px;
+    background: -webkit-linear-gradient(blue, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header {
+    border: 5px dotted red;
+}
+
+@font-face {
+    font-family: MyFont;
+    src: url(../fonts/Dayger.ttf);
+}
