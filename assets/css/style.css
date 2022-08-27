@@ -43,3 +43,14 @@
     font-family: MyFont;
     src: url(../fonts/Dayger.ttf);
 }
+
+@media screen and (max-width: 580px) {
+    .header h1 {
+        font-family: MyFont;
+        font-size: 50px;
+        background: -webkit-linear-gradient(blue, red);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+  }
