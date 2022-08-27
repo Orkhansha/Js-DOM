@@ -15,22 +15,30 @@ let resultNum = document.querySelector(".resulte h3")
 function sum (){
     resultNum.innerText = (parseInt(text1.value) + parseInt(text2.value));
     alert("***Ededler toplanir***")
+    text1.value = "";
+    text2.value = "";
 }
 
 function sub (){
     resultNum.innerText = (parseInt(text1.value) - parseInt(text2.value));
     alert("***Ededler chixilir***")
+    text1.value = "";
+    text2.value = "";
 }
 
 function mult (){
     resultNum.innerText = (parseInt(text1.value) * parseInt(text2.value));
     alert("***Ededler vurulur***")
+    text1.value = "";
+    text2.value = "";
 }
 
 function div (){
     if (text2.value != 0) {
         resultNum.innerText = (parseInt(text1.value) / parseInt(text2.value));
         alert("***Ededler bolunur***")
+        text1.value = "";
+        text2.value = "";
     }else{
         alert("Duzgun reqem daxil edin")
         resultNum.innerText = ""
