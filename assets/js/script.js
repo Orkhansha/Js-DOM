@@ -17,7 +17,7 @@ function sum() {
     alert("***Boshluq buraxmaq olmaz***")
     return;
   } else {
-    resultNum.innerText = parseInt(text1.value) + parseInt(text2.value);
+    resultNum.innerText = parseFloat(text1.value) + parseFloat(text2.value);
     alert("***Ededler toplanir***");
     text1.value = "";
     text2.value = "";
@@ -29,7 +29,7 @@ function sub() {
         alert("***Boshluq buraxmaq olmaz***")
         return;
       } else {
-        resultNum.innerText = parseInt(text1.value) - parseInt(text2.value);
+        resultNum.innerText = parseFloat(text1.value) - parseFloat(text2.value);
         alert("***Ededler chixilir***");
         text1.value = "";
         text2.value = "";
@@ -42,7 +42,7 @@ function mult() {
         alert("***Boshluq buraxmaq olmaz***")
         return;
       } else {
-        resultNum.innerText = parseInt(text1.value) * parseInt(text2.value);
+        resultNum.innerText = parseFloat(text1.value) * parseFloat(text2.value);
         alert("***Ededler vurulur***");
         text1.value = "";
         text2.value = "";
@@ -57,7 +57,7 @@ function div() {
         return;
       } else {
         if (text2.value != 0) {
-            resultNum.innerText = parseInt(text1.value) / parseInt(text2.value);
+            resultNum.innerText = parseFloat(text1.value) / parseFloat(text2.value);
             alert("***Ededler bolunur***");
             text1.value = "";
             text2.value = "";
